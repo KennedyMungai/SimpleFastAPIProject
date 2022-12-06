@@ -1,6 +1,9 @@
+"""
+This file is supposed to be the template the user object is based on
+"""
 from sqlalchemy import Table, Column
 from sqlalchemy.sql.sqltypes import Integer, String
-from config.db import meta
+from ..config.db import meta
 
 users = Table(
     'users', meta,
