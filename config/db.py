@@ -1,3 +1,6 @@
+"""
+This is the database configuration file
+"""
 from sqlalchemy import create_engine, MetaData
 
 
